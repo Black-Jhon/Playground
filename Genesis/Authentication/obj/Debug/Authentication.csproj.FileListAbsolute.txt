@@ -1,0 +1,7 @@
+C:\Users\John\Documents\BEZAO\Genesis\Authentication\bin\Debug\Authentication.exe
+C:\Users\John\Documents\BEZAO\Genesis\Authentication\bin\Debug\Authentication.pdb
+C:\Users\John\Documents\BEZAO\Genesis\Authentication\obj\Debug\Authentication.csproj.AssemblyReference.cache
+C:\Users\John\Documents\BEZAO\Genesis\Authentication\obj\Debug\Authentication.csproj.SuggestedBindingRedirects.cache
+C:\Users\John\Documents\BEZAO\Genesis\Authentication\obj\Debug\Authentication.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\BEZAO\Genesis\Authentication\obj\Debug\Authentication.exe
+C:\Users\John\Documents\BEZAO\Genesis\Authentication\obj\Debug\Authentication.pdb
