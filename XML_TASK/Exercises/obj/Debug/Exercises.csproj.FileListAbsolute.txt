@@ -1,0 +1,7 @@
+C:\Users\John\Documents\BEZAO\XML_TASK\Exercises\bin\Debug\Exercises.exe
+C:\Users\John\Documents\BEZAO\XML_TASK\Exercises\bin\Debug\Exercises.pdb
+C:\Users\John\Documents\BEZAO\XML_TASK\Exercises\obj\Debug\Exercises.csproj.AssemblyReference.cache
+C:\Users\John\Documents\BEZAO\XML_TASK\Exercises\obj\Debug\Exercises.csproj.SuggestedBindingRedirects.cache
+C:\Users\John\Documents\BEZAO\XML_TASK\Exercises\obj\Debug\Exercises.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\BEZAO\XML_TASK\Exercises\obj\Debug\Exercises.exe
+C:\Users\John\Documents\BEZAO\XML_TASK\Exercises\obj\Debug\Exercises.pdb

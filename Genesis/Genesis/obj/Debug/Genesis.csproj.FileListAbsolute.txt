@@ -1,0 +1,7 @@
+C:\Users\John\Documents\BEZAO\Genesis\Genesis\bin\Debug\Genesis.exe
+C:\Users\John\Documents\BEZAO\Genesis\Genesis\bin\Debug\Genesis.pdb
+C:\Users\John\Documents\BEZAO\Genesis\Genesis\obj\Debug\Genesis.csproj.AssemblyReference.cache
+C:\Users\John\Documents\BEZAO\Genesis\Genesis\obj\Debug\Genesis.csproj.SuggestedBindingRedirects.cache
+C:\Users\John\Documents\BEZAO\Genesis\Genesis\obj\Debug\Genesis.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\BEZAO\Genesis\Genesis\obj\Debug\Genesis.exe
+C:\Users\John\Documents\BEZAO\Genesis\Genesis\obj\Debug\Genesis.pdb

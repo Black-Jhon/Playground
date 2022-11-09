@@ -1,0 +1,7 @@
+C:\Users\John\Documents\BEZAO\Genesis\BreakAndContinue\bin\Debug\BreakAndContinue.exe
+C:\Users\John\Documents\BEZAO\Genesis\BreakAndContinue\bin\Debug\BreakAndContinue.pdb
+C:\Users\John\Documents\BEZAO\Genesis\BreakAndContinue\obj\Debug\BreakAndContinue.csproj.AssemblyReference.cache
+C:\Users\John\Documents\BEZAO\Genesis\BreakAndContinue\obj\Debug\BreakAndContinue.csproj.SuggestedBindingRedirects.cache
+C:\Users\John\Documents\BEZAO\Genesis\BreakAndContinue\obj\Debug\BreakAndContinue.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\BEZAO\Genesis\BreakAndContinue\obj\Debug\BreakAndContinue.exe
+C:\Users\John\Documents\BEZAO\Genesis\BreakAndContinue\obj\Debug\BreakAndContinue.pdb

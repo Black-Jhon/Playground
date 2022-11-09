@@ -1,0 +1,7 @@
+C:\Users\John\Documents\BEZAO\Genesis\TransformString\bin\Debug\TransformString.exe
+C:\Users\John\Documents\BEZAO\Genesis\TransformString\bin\Debug\TransformString.pdb
+C:\Users\John\Documents\BEZAO\Genesis\TransformString\obj\Debug\TransformString.csproj.AssemblyReference.cache
+C:\Users\John\Documents\BEZAO\Genesis\TransformString\obj\Debug\TransformString.csproj.SuggestedBindingRedirects.cache
+C:\Users\John\Documents\BEZAO\Genesis\TransformString\obj\Debug\TransformString.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\BEZAO\Genesis\TransformString\obj\Debug\TransformString.exe
+C:\Users\John\Documents\BEZAO\Genesis\TransformString\obj\Debug\TransformString.pdb
