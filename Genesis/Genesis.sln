@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakAndContinue", "BreakAn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransformString", "TransformString\TransformString.csproj", "{2C928F81-DB28-4C4B-B8F4-C342DF958297}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{B22ABBD1-B037-4F78-9E5F-792CB4671219}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{2C928F81-DB28-4C4B-B8F4-C342DF958297}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C928F81-DB28-4C4B-B8F4-C342DF958297}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C928F81-DB28-4C4B-B8F4-C342DF958297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B22ABBD1-B037-4F78-9E5F-792CB4671219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B22ABBD1-B037-4F78-9E5F-792CB4671219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B22ABBD1-B037-4F78-9E5F-792CB4671219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B22ABBD1-B037-4F78-9E5F-792CB4671219}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
