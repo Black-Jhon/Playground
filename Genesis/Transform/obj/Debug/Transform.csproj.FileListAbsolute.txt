@@ -1,7 +1,0 @@
-C:\Users\John\Documents\BEZAO\Genesis\Transform\bin\Debug\Transform.exe
-C:\Users\John\Documents\BEZAO\Genesis\Transform\bin\Debug\Transform.pdb
-C:\Users\John\Documents\BEZAO\Genesis\Transform\obj\Debug\Transform.csproj.AssemblyReference.cache
-C:\Users\John\Documents\BEZAO\Genesis\Transform\obj\Debug\Transform.csproj.SuggestedBindingRedirects.cache
-C:\Users\John\Documents\BEZAO\Genesis\Transform\obj\Debug\Transform.csproj.CoreCompileInputs.cache
-C:\Users\John\Documents\BEZAO\Genesis\Transform\obj\Debug\Transform.exe
-C:\Users\John\Documents\BEZAO\Genesis\Transform\obj\Debug\Transform.pdb
