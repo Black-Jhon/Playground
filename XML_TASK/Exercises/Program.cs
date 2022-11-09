@@ -120,9 +120,6 @@ namespace Exercises
         ///		    }
         ///		}
         /// </summary>
-        ///
-        /// Reference
-        /// https://codewithmukesh.com/blog/write-clean-csharp-code/#0-1-use-a-good-ide
         /// <param name="args"></param>
 
         public static void Main(string[] args)

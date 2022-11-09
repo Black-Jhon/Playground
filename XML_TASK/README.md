@@ -17,3 +17,6 @@ The highlights includes:
 13. Prefer String Interpolation
 14. Use Expression Bodied Methods
 15. Don’t ignore caught errors
+
+Reference
+https://codewithmukesh.com/blog/write-clean-csharp-code/#0-1-use-a-good-ide
