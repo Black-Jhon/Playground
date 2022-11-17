@@ -9,18 +9,19 @@ namespace Pomo
         public static void Main(string[] args)
         {
             {
-                // Task Start
                 Console.WriteLine("\nEnter how much time you would need to work in minute: ");
                 var workTime = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("\nEnter how much time you would need to rest in minute: ");
+                Console.WriteLine("Enter how much time you would need to rest in minute: ");
                 var restTime = Convert.ToInt32(Console.ReadLine());
                 Stopwatch stopwatch = new Stopwatch();
                 
                 if (workTime > 0)
                 {
-                    int workTimeInMin = workTime * 1000 * 60;
+                    int timeInSec = workTime * 1000 * 60;
                     stopwatch.Start();
-                    Thread.Sleep(workTimeInMin);
+                    Console.WriteLine($"\nWork time count-down started...");
+                    
+                    Thread.Sleep(timeInSec);
                     stopwatch.Stop();
                 }
                 else
@@ -28,7 +29,6 @@ namespace Pomo
                     Console.WriteLine("The work time you entered is invalid");
                 }
                 
-                // Task Completion
                 TimeSpan timeSpan = stopwatch.Elapsed;
                 Console.WriteLine($"Your work time has completed it's cycle.");
                 Stopwatch stopwatch2 = new Stopwatch();
@@ -37,6 +37,8 @@ namespace Pomo
                 {
                     int workTimeInMin = restTime * 1000 * 60;
                     stopwatch2.Start();
+                    Console.WriteLine($"\nRest count down started...");
+                    
                     Thread.Sleep(workTimeInMin);
                     stopwatch2.Stop();
                 }
@@ -44,11 +46,26 @@ namespace Pomo
                 {
                     Console.WriteLine("The rest time you entered is invalid");
                 }
-                
-                TimeSpan endTimeSpan = stopwatch.Elapsed;
-                Console.WriteLine("Your Session Time is {0:00}:{1:00}:{2:00}",
-                    timeSpan.Hours+endTimeSpan.Hours, timeSpan.Minutes+endTimeSpan.Minutes, timeSpan.Seconds + endTimeSpan.Seconds);
-                Console.ReadLine();
+
+                Console.WriteLine("Want to continue? y/n");
+                var y = Convert.ToInt32(Console.ReadLine());
+
+                if (y > 0)
+                {
+                    int timeInSec = workTime * 1000 * 60;
+                    stopwatch.Start();
+                    Console.WriteLine($"\nWork time count-down started...");
+                    
+                    Thread.Sleep(timeInSec);
+                    stopwatch.Stop();
+                }
+                else
+                {
+                    TimeSpan endTimeSpan = stopwatch.Elapsed;
+                    Console.WriteLine($"Your work session lasted for {workTime} min");
+                    Console.WriteLine($"Your rest session lasted for {restTime} min");
+                    Console.ReadLine();
+                }
             }
         }
     }
