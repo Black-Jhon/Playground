@@ -50,7 +50,7 @@ namespace Pomo
                
                 TimeSpan endTimeSpan = stopwatch.Elapsed;
                 Console.WriteLine($"Rest time count-down completed!");
-                Console.WriteLine($"Your work session lasted for {workTime} min");
+                Console.WriteLine($"\nYour work session lasted for {workTime} min");
                 Console.WriteLine($"Your rest session lasted for {restTime} min");
                 Console.ReadLine();
             }
