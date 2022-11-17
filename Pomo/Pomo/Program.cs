@@ -9,6 +9,7 @@ namespace Pomo
         public static void Main(string[] args)
         {
             {
+                // Task Start
                 Console.WriteLine("\nEnter how much time you would need to work in minute: ");
                 var workTime = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("\nEnter how much time you would need to rest in minute: ");
@@ -18,7 +19,7 @@ namespace Pomo
                 if (workTime > 0)
                 {
                     int workTimeInMin = workTime * 1000 * 60;
-                    stopwatch.Start ();
+                    stopwatch.Start();
                     Thread.Sleep(workTimeInMin);
                     stopwatch.Stop();
                 }
@@ -27,6 +28,7 @@ namespace Pomo
                     Console.WriteLine("The work time you entered is invalid");
                 }
                 
+                // Task Completion
                 TimeSpan timeSpan = stopwatch.Elapsed;
                 Console.WriteLine($"Your work time has completed it's cycle.");
                 Stopwatch stopwatch2 = new Stopwatch();
