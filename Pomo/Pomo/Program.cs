@@ -37,7 +37,7 @@ namespace Pomo
                 {
                     int workTimeInMin = restTime * 1000 * 60;
                     stopwatch2.Start();
-                    Console.WriteLine($"\nRest count down started...");
+                    Console.WriteLine($"\nRest time count-down started...");
                     
                     Thread.Sleep(workTimeInMin);
                     stopwatch2.Stop();
@@ -47,25 +47,12 @@ namespace Pomo
                     Console.WriteLine("The rest time you entered is invalid");
                 }
 
-                Console.WriteLine("Want to continue? y/n");
-                var y = Convert.ToInt32(Console.ReadLine());
-
-                if (y > 0)
-                {
-                    int timeInSec = workTime * 1000 * 60;
-                    stopwatch.Start();
-                    Console.WriteLine($"\nWork time count-down started...");
-                    
-                    Thread.Sleep(timeInSec);
-                    stopwatch.Stop();
-                }
-                else
-                {
-                    TimeSpan endTimeSpan = stopwatch.Elapsed;
-                    Console.WriteLine($"Your work session lasted for {workTime} min");
-                    Console.WriteLine($"Your rest session lasted for {restTime} min");
-                    Console.ReadLine();
-                }
+               
+                TimeSpan endTimeSpan = stopwatch.Elapsed;
+                Console.WriteLine($"Rest time count-down completed!");
+                Console.WriteLine($"Your work session lasted for {workTime} min");
+                Console.WriteLine($"Your rest session lasted for {restTime} min");
+                Console.ReadLine();
             }
         }
     }
