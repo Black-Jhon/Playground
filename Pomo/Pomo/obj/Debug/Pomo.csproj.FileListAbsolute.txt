@@ -1,0 +1,7 @@
+C:\Users\John\Documents\BEZAO\Pomo\Pomo\bin\Debug\Pomo.exe
+C:\Users\John\Documents\BEZAO\Pomo\Pomo\bin\Debug\Pomo.pdb
+C:\Users\John\Documents\BEZAO\Pomo\Pomo\obj\Debug\Pomo.csproj.AssemblyReference.cache
+C:\Users\John\Documents\BEZAO\Pomo\Pomo\obj\Debug\Pomo.csproj.SuggestedBindingRedirects.cache
+C:\Users\John\Documents\BEZAO\Pomo\Pomo\obj\Debug\Pomo.csproj.CoreCompileInputs.cache
+C:\Users\John\Documents\BEZAO\Pomo\Pomo\obj\Debug\Pomo.exe
+C:\Users\John\Documents\BEZAO\Pomo\Pomo\obj\Debug\Pomo.pdb
