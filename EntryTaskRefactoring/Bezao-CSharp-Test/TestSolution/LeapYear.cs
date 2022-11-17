@@ -1,4 +1,4 @@
-﻿namespace TestSolution;
+namespace TestSolution;
 
 public class LeapYear
 {

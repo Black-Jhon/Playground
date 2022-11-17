@@ -1,4 +1,4 @@
-﻿namespace TestSolution;
+namespace TestSolution;
 
 // Base method
 public class PigLatin
