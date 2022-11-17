@@ -9,40 +9,43 @@ namespace Pomo
         public static void Main(string[] args)
         {
             {
-                Console.WriteLine("Enter a WorkTime duration in minutes: ");
-                var work_duration = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Enter a RestTime duration in minutes: ");
-                var rest_duration = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("\nEnter how much time you would need to work in minute: ");
+                var workTime = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("\nEnter how much time you would need to rest in minute: ");
+                var restTime = Convert.ToInt32(Console.ReadLine());
                 Stopwatch stopwatch = new Stopwatch();
                 
-                if (work_duration > 0)
+                if (workTime > 0)
                 {
-                    int work_time_in_min = work_duration * 1000 * 60;
+                    int workTimeInMin = workTime * 1000 * 60;
                     stopwatch.Start ();
-                    Thread.Sleep(work_time_in_min);
+                    Thread.Sleep(workTimeInMin);
                     stopwatch.Stop();
                 }
                 else
                 {
-                    Console.WriteLine("Worktime you entered is invalid");
+                    Console.WriteLine("The work time you entered is invalid");
                 }
-                TimeSpan ts = stopwatch.Elapsed;
-                Console.WriteLine("Your WorkTime has completed");
+                
+                TimeSpan timeSpan = stopwatch.Elapsed;
+                Console.WriteLine($"Your work time has completed it's cycle.");
                 Stopwatch stopwatch2 = new Stopwatch();
-                if (rest_duration > 0)
+                
+                if (restTime > 0)
                 {
-                    int work_time_in_min = rest_duration * 1000 * 60;
+                    int workTimeInMin = restTime * 1000 * 60;
                     stopwatch2.Start();
-                    Thread.Sleep(work_time_in_min);
+                    Thread.Sleep(workTimeInMin);
                     stopwatch2.Stop();
                 }
                 else
                 {
-                    Console.WriteLine("The RestTime you entered is invalid");
+                    Console.WriteLine("The rest time you entered is invalid");
                 }
-                TimeSpan rts = stopwatch.Elapsed;
+                
+                TimeSpan endTimeSpan = stopwatch.Elapsed;
                 Console.WriteLine("Your Session Time is {0:00}:{1:00}:{2:00}",
-                    ts.Hours+rts.Hours, ts.Minutes+rts.Minutes, ts.Seconds + rts.Seconds);
+                    timeSpan.Hours+endTimeSpan.Hours, timeSpan.Minutes+endTimeSpan.Minutes, timeSpan.Seconds + endTimeSpan.Seconds);
                 Console.ReadLine();
             }
         }
