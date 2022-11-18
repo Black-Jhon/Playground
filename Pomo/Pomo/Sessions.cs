@@ -11,8 +11,8 @@ namespace Pomo
 
         public Sessions(int workTime, int restTime)
         {
-            this._workTime = workTime;
-            this._restTime = restTime;
+            _workTime = workTime;
+            _restTime = restTime;
         }
 
         public void Progression()
