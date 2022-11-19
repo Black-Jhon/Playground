@@ -6,19 +6,14 @@ namespace Pomo
 {
     public class Sessions
     {
-        public int _workTime { get; set; }
-        public int _restTime { get; set; }
-
-        public Sessions(int workTime, int restTime)
-        {
-            _workTime = workTime;
-            _restTime = restTime;
-        }
+        private int _WorkTime { get; set; }
+        private int _RestTime { get; set; }
+        
+        public Sessions() { }
 
         public void Progression()
         {
-            {
-                Console.WriteLine("\nEnter how much time you would need to work in minute: ");
+            Console.WriteLine("\nEnter how much time you would need to work in minute: ");
                 var workTime = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Enter how much time you would need to rest in minute: ");
                 var restTime = Convert.ToInt32(Console.ReadLine());
@@ -26,9 +21,9 @@ namespace Pomo
                 
                 if (workTime > 0)
                 {
-                    int timeInSec = workTime * 1000 * 60;
+                    int timeInSec = workTime * 1000 * 60; 
                     stopwatch.Start();
-                    Console.WriteLine($"\nWork time count-down started...");
+                    Console.WriteLine($"\nWork time count-down started😀...");
                     
                     Thread.Sleep(timeInSec);
                     stopwatch.Stop();
@@ -63,6 +58,5 @@ namespace Pomo
                 Console.WriteLine($"Your rest session lasted for {restTime} min");
                 Console.ReadLine();
             }
-        }
     }
 }
