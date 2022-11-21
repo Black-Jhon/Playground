@@ -23,7 +23,7 @@ namespace Pomo
                 {
                     int timeInSec = workTime * 1000 * 60; 
                     stopwatch.Start();
-                    Console.WriteLine($"\nWork time count-down started😀...");
+                    Console.WriteLine($"\nWork time count-down started...");
                     
                     Thread.Sleep(timeInSec);
                     stopwatch.Stop();
