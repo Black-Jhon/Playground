@@ -8,8 +8,12 @@ namespace Pomo
     {
         private int _WorkTime { get; set; }
         private int _RestTime { get; set; }
-        
-        public Sessions() { }
+
+        public Sessions(int workTime,int restTime)
+        {
+            _WorkTime = workTime;
+            _RestTime = restTime;
+        }
 
         public void Progression()
         {
